@@ -102,3 +102,11 @@ if age>=18:
 else:
     age = 18-age
     print("u need to wait for more",age,"years")
+'''
+student marks and grade analayzer
+90-100-->'A'
+80-89-->'B'
+70-79-->'C'
+60-69-->'D'
+>60-->FAIL
+ALSO -VE CASES  SHOULD NOT BE ALLOWED AND MARKS SHOULD NOT BR GRATER THAN 100
