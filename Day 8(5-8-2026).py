@@ -117,17 +117,38 @@ for i in 'codegnan':
 
 '''
 
-name="codegnan"
+'''
+name="datacodegnan"
 #built-in functions -->len(),min(),max(),sorted()
 print(len(name))
 print(min(name)) #alphabetical order ASCII ordering
 print(ord('A'))
 print(ord('a'))
 print(max(name))
+print(chr(97))
+print(sorted(name))
 
+'''
+'''
+#Methods on Strings --> Case-Conversions, Finding/ searching...
+name='Codegnan data'
+#case-conversions -->upper(),lower(),title(),capitalize()
+a= name.upper()
+print(a)
+b=name.lower()
+print(b)
+#Capitalize() -->converts first letter to uppercase
+c=name.capitalize()
+print(c)
+d=name.title()#converts evert work first letter to uppercase
+print(d)
 
+'''
+#Task : A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+#USE LOOP AND STRINGS TO RETURN A-Z
 
-
+for i in range(A , Z):
+print(i)
 
 
 
