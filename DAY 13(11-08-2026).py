@@ -78,30 +78,72 @@ while True:
 print("Program ended")
 '''
 
-name = input("Enter username: ")
+'''
+    name = input("Enter username: ")
 
-while True:
+    while True:
 
-    if name == "quit":
-        break
+        if name == "quit":
+            break
 
-    print("isalnum:", name.isalnum())
+        print("isalnum:", name.isalnum())
 
-    if name[0].isalpha():
-        print("First character is a letter")
+        if name[0].isalpha():
+            print("First character is a letter")
+        else:
+            print("First character is not a letter")
+
+        print("isidentifier:", name.isidentifier())
+
+        print("isascii:", name.isascii())
+
+        name = input("\nEnter username or 'quit': ")
+
+    print("Program ended")
+
+'''
+'''
+student_report=input("enter the name of student: ")
+print(int,input("student marks"))
+
+for i in range(3):
+    if marks <= 0 or marks == 100:
+        print("Invalid marks! Enter marks between 0 and 100.")
+        continue
+    if marks >= 80:
+        grade = "A"
+    elif marks >= 60:
+        grade = "B"
+    elif marks >= 40:
+        grade = "C"
     else:
-        print("First character is not a letter")
+        grade = "Fail"
 
-    print("isidentifier:", name.isidentifier())
+    print(f"{name.ljust(15)} {str(marks).rjust(5)} {grade.rjust(5)}")
 
-    print("isascii:", name.isascii())
+print("=" * 50)
 
-    name = input("\nEnter username or 'quit': ")
+'''
+print("_________________________________________________________________")
+print("STUDENT REPORT".center(40))
+print("_________________________________________________________________")
+print("Name".ljust(40), "Marks".rjust(10), "Grade".rjust(10))
 
-print("Program ended")
+for mark in range(3):
+    student = input("Enter the student name: ")
+    marks = int(input("Enter the marks: "))
 
+    if marks < 0 or marks > 100:
+        print("Invalid marks")
+    elif marks >= 80:
+        grade = "A"
+    elif marks >= 60:
+        grade = "B"
+    elif marks >= 40:
+        grade = "C"
+    else:
+        grade = "Fail"
 
-
-    
+    print(f"{student.ljust(40)}{str(marks).rjust(10)}{grade.rjust(10)}")
 
 
