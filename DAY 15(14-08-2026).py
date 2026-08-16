@@ -109,6 +109,7 @@ common=da_23.intersection_update(da_24)
 print(common)#it returns none
 print(da_23) #common elements are finally stored
 '''
+
 print(da_23)
 print(da_24)
 #difference() removes common elements and prints rmng elements from first series
@@ -132,3 +133,4 @@ print(da_23.issuperset(da_24))
 
 #isdisjiont() return False for sets having common elements
 print(da_23.isdisjoint(da_24))
+
