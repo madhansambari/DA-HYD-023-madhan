@@ -98,5 +98,6 @@ def employee(name,salary,role,place="Codegnan"):
     print(f'Employee name is {name},role is {role} and {salary} works in {place}')
 employee("sai",20000,"Admin")
 employee(salary=25000,role="Frontdesk",name="Asha")
+employee("Akash",25000,"IT","Cognizant")
 
 #♥☺☻♦••◘○☺
